@@ -9,8 +9,5 @@ class Task:
     def create(self,):
         self.id = Task.id
 
-    def save(self):
-        pass
-
-    def edit(self):
+    def edit(self,title=None,text=None,date=None):
         pass

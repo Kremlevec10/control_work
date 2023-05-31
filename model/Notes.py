@@ -7,4 +7,7 @@ class Notes:
         self.list_notes.append(note)
 
     def show_all_notes(self):
+        return self.list_notes
+
+    def save(self):
         pass
