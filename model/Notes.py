@@ -4,9 +4,11 @@ class Notes:
         self.list_notes = []
 
     def add_note(self,note):
+        self.id += 1
+        note.set_id(self.id)
         self.list_notes.append(note)
 
-    def show_all_notes(self):
+    def get_all_notes(self):
         return self.list_notes
 
     def save(self):
